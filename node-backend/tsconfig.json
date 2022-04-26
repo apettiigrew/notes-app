@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": [
+        "*"
+      ],
+      "@config/*": [
+        "config/*"
+      ],
+      "@util/*": [
+        "util/*"
+      ],
+      "@api/*": [
+        "api/*"
+      ]
+    },
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "./node_modules",
+    "coverage",
+    "build",
+    "test",
+    "prettierrc.js",
+  ]
+}

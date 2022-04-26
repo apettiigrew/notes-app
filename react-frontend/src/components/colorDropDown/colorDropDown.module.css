@@ -1,0 +1,30 @@
+.colors-wrapper {
+    z-index: 100;
+    position: absolute;
+    bottom: -36px;
+    left: -54px;
+    opacity: 1;
+    min-width: 350px;
+    height: 50px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-around;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: opacity 0.218s linear;
+}
+
+.colors-wrapper .colors {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 0 8px;
+    cursor: pointer;
+}
+.colors:hover{
+    border: 3px solid black;
+    transform: border 1s;
+}
